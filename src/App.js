@@ -56,9 +56,10 @@ class App extends Component {
         <div className="container-fluid App-intro">
 
           {this.state.weather.map(day=>
-            <div className="row">
+            <div className="col-md-4 clearfix">
             <h2 className="temp">High: {day.temp.max}</h2>
             <h2 className="temp">Low: {day.temp.min}</h2>
+            <h5 className="temp">{day.weather[0].description}</h5>
             </div>
             )}
         </div>

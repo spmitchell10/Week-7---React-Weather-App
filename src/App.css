@@ -19,10 +19,17 @@
   display: block;
   padding-top: 50px;
 }
+.clearfix{
+  background: #61DAFB;
+  border-radius: 10px;
+  margin: 1px;
+  width: 233px;
+}
 .temp{
-  display: inline;
+  display: inherit;
   padding: 5px;
-  background: grey;
+  background: #222222;
+  color: #61DAFB;
   border-radius: 5px;
   margin-right: 2px;
   margin-bottom: 5px;
