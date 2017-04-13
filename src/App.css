@@ -17,6 +17,9 @@
   width: 300px;
   margin: 0px auto;
 }
+.form-group{
+  margin-top: 30px;
+}
 
 .App-intro {
   font-size: large;

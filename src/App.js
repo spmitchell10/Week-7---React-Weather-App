@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import axios from 'axios';
-import { Button } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
+
+
 
 
 class App extends Component {
@@ -45,13 +45,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Weather.React</h2>
         </div>
-            <form>
+            
               <div className="form-group">
-                <label for="exampleInputEmail1">Enter City</label>
+                <label >Enter City</label>
                 <input type="text" className="form-control" ref={(input) => {this.city = input}} placeholder="City"></input> 
               </div>
               <button type="submit" className="btn btn-default" onClick={this.getWeather.bind(this)}>Submit</button>
-            </form>
+            
                     
         <div className="container-fluid App-intro">
 
