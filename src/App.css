@@ -13,6 +13,10 @@
   padding: 20px;
   color: white;
 }
+.form-control{
+  width: 300px;
+  margin: 0px auto;
+}
 
 .App-intro {
   font-size: large;
@@ -24,6 +28,7 @@
   border-radius: 10px;
   margin: 1px;
   width: 233px;
+  padding-bottom: 10px;
 }
 .temp{
   display: inherit;
